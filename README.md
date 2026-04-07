@@ -12,6 +12,8 @@ better business decision-making.
 ## 📊 Dataset
 **Source Table:** `Transactions`
 **Supporting Table:** `Dim Date` (Date dimension table)
+**Supporting Table:** `Dim Store` (Store dimension table)
+**Supporting Table:** `Dim Product` (Product dimension table)
 **Measure Table:** `Calculation` (all DAX measures stored here)
 
 **Key columns in Transactions:**
