@@ -55,6 +55,8 @@ This column enabled time-based sales analysis across visuals.
 ## 🗺️ Data Model
 The model follows a **Star Schema**:
 - `Transactions` (Fact Table) ←→ `Dim Date` (Dimension Table)
+ - `Transactions` (Fact Table) ←→ `Dim Store` (Dimension Table)
+ - `Transactions` (Fact Table) ←→ `Dim Product` (Dimension Table)
 - `Calculation` table holds all DAX measures (no relationships needed)
 
 ---
